@@ -1,0 +1,11 @@
+[Unit]
+
+Description = BroadCast Ip to 12345
+
+[Service]
+ExecStart = /usr/local/bin/BroadCast
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
