@@ -1,6 +1,6 @@
 [Unit]
 
-Description = BroadCast Ip to 12345
+Description = Send the IP addresses corresponding to all network cards on your machine through broadcast
 
 [Service]
 ExecStart = /usr/local/bin/BroadCast

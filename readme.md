@@ -1,5 +1,5 @@
 
-Broadcast with all local network  by asio
+Send the IP addresses corresponding to all network cards on your machine through broadcast
 
 ## how to build
 
