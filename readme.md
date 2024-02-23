@@ -14,10 +14,8 @@ make -j8
 ```
 ## make deb
 
-then copy file to  ./package/usr/local/bin
-
 ```bash
-cp 
+cp cmake-build-debug/broadcast package/usr/local/bin/
 sudo dpkg-deb --build broadcast.deb
 
 ```
