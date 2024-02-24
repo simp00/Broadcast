@@ -1,0 +1,6 @@
+echo "......................................................"
+echo "..............BroadCast_deb installing...................."
+echo "......................................................"
+
+systemctl enable BroadCast
+systemctl start BroadCast

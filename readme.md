@@ -16,8 +16,8 @@ make -j8
 
 ```bash
 cp cmake-build-debug/broadcast package/usr/local/bin/
-sudo dpkg-deb --build broadcast.deb
 
+~/Broadcast# dpkg-deb -b package/ BroadCast.deb
 ```
 ## install
 ```bash

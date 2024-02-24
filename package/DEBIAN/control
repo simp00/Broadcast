@@ -1,5 +1,5 @@
 Package: BroadCast
 Version: 1.0
-Architecture: all
+Architecture: arm64
 Maintainer: simp simp00@163.com
 Description: Send the IP addresses corresponding to all network cards on your machine through broadcast
